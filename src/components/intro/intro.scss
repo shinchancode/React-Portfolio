@@ -1,0 +1,254 @@
+@import "../../global.scss";
+
+.intro
+{
+    background-color: #ffffff;
+    display: flex;
+
+    @include mobile
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .left
+    {
+        display: flex;
+        flex: 0.5;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .imgContainer
+        {
+            width: 400px;
+            height: 400px;
+            background-color: #e46161;
+            border-radius: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 40px;
+
+            @include mobile
+            {
+                margin-bottom: 10px;
+                align-items: center;
+                width: 250px;
+                height: 250px;
+            }
+
+            img
+            {
+                height: 70%;
+                border-radius: 50%;
+
+                @include mobile
+                {
+                    height: 80%;
+                }
+            }
+        }
+            
+        .links
+        {
+            overflow-y: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 70px;
+
+            @include mobile
+            {
+                height: 60px;
+            }
+
+            img
+            {
+                margin: 10px;
+                height: 50px;
+                width: 50px;
+
+                
+                @include mobile
+                {
+                    height: 40px;
+                    width: 40px;
+                    margin: 5px;
+                }
+
+                &:hover
+                {
+                    transform: scale(1.1);  
+                }
+            }
+        }
+    }
+
+    .right
+    {
+        flex: 0.5;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        @include mobile
+        {
+            justify-content: flex-start;
+            padding: 0;
+            margin-top: 15px;
+            flex: 0.6;
+        }
+
+        .wrapper
+        {
+            width: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+         
+            @include mobile
+            {
+                padding-left: 0;
+                align-items: center;
+            }
+
+            h1
+            {
+                font-size: 60px;
+                margin: 10px 0px;
+                color: crimson;
+
+                @include mobile
+                {
+                    font-size: 35px;
+                    margin: 0;
+                }
+
+            }
+
+            h2
+            {
+                font-size: 35px;
+                
+                @include mobile
+                {
+                    font-size: 20px;
+                }
+            }
+        
+        }
+
+        .top
+        {
+            height: 40%;
+            position: relative;
+            margin: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
+            transition: all 1s ease;
+            cursor: pointer;
+
+            @include mobile
+            {
+                height: 70%;
+                margin: 0;
+            }
+
+            h3
+            {
+                position: absolute;
+                z-index: 2;
+                text-align: center;
+                font-size: 25px;
+
+                @include mobile
+                {
+                    font-size: 20px;
+                }
+
+                span
+                {
+                    font-size: inherit;
+                    color: rgb(253, 253, 253);
+                }
+
+                .ityped-cursor
+                {
+                    animation: blink 2s infinite;
+                }
+
+                @keyframes blink 
+                {   
+                    50%
+                    {
+                        opacity: 1;
+                    }
+                    100%
+                    {
+                        opacity: 0;
+                    }
+                    
+                }
+            
+            }
+
+            img
+            {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                z-index: 1;
+
+                @include mobile
+                {
+                    height: 400px;
+                    width: 400px;
+                }
+            }
+          
+        }
+
+        a
+        {
+           position: absolute; 
+           bottom: 10px;
+           left: 40%;
+
+           @include mobile
+            {
+                width: 100%;
+                text-align: center;
+                left: 30%;
+                bottom: 0px;
+            }
+
+           img
+           {
+             width: 30px;
+             animation: arrowBlink 1.5s infinite;  
+
+
+           }
+
+           @keyframes arrowBlink 
+           {
+               100%
+               {
+                   opacity: 0;
+               }
+           }
+        }
+        
+    }
+}

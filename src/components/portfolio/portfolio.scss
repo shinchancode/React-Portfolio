@@ -1,0 +1,178 @@
+@import "../../global.scss";
+
+.portfolio
+{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1
+    {
+        font-size: 50px;
+        overflow: hidden;
+        @include mobile4
+        {
+            font-size: 25px;
+        }
+    }
+
+    ul
+    {
+        margin: 10px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+
+        @include mobile4
+        {
+            flex-wrap: wrap;
+            margin: 0px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+
+    .container
+    {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        @include mobile4
+        {
+            width: 100%;
+        }
+
+        .box
+        {
+            width: 300px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            @include mobile
+            {
+                width: 200px;
+            }
+
+            .item
+            {
+                width: 250px;
+                height: 150px;
+                border-radius: 20px;
+                border: 1px solid lightgray;
+                margin: 10px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                position: relative;
+                transition: all 1s ease;
+                cursor: pointer;
+    
+
+                @include mobile
+                {
+                    width: 150px;
+                    height: 100px;
+                }
+
+                h3
+                {
+                    position: absolute;
+                    font-size: 20px;
+                }
+    
+                img
+                {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    z-index: 1;
+                }
+    
+                &:hover
+                {
+                    background-color: $maincolor;
+                    img
+                    {
+                        opacity: 0.2;
+                        z-index: 0;
+                    }
+    
+                }
+            }
+
+            .content
+            {
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0px 0px 15px -8px black;
+                opacity: 0;
+                width: 250px;
+                transition: all 2s ease-out;
+                padding: 10px;
+                margin: 0 10px;
+                display: none;
+
+                @include mobile
+                {
+                    width: 150px;
+                    // height: 100px;
+                }
+
+                .center
+                {
+                    text-align: justify;
+                    padding: 10px;
+                    background-color: rgb(240, 240, 240);
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    h2
+                    {
+                        font-size: 15px;
+                        margin: 10px 0px;
+                        font-weight: 600;
+                    }
+
+                    
+                }
+
+                .bottom
+                {
+                    margin-top: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    a
+                    { 
+                        left: 40%;
+        
+                        img
+                        {
+                            width: 40px;
+                        }
+                    }
+                }
+            }
+
+                
+            &:active .content , &:hover .content
+            {
+                display: block;
+                opacity: 1;
+            }
+        }
+
+    }
+}
