@@ -13,7 +13,7 @@ export const webProject = [
       id: 2,
       title: "30 Days of JavaScript",
       img:
-        "../assets/jsp.png",
+        "assets/jsp.png",
       desc1: "Website made using Nodejs and Express in the back-end",
       desc2: "A 30 Days Of JavaScript challenge to learn JavaScript by making 30 different projects using some famous JavaScript libraries.",
       demo : "https://rathi30daysofjava.herokuapp.com/",
@@ -33,7 +33,7 @@ export const webProject = [
       id: 4,
       title: "Portfolio",
       img:
-        "../assets/l1.png",
+        "assets/l1.png",
       desc1: "Implemented my own portfolio as a webpage using amazing features of CSS and HTML",
       desc2: "It is a responsive website",
       demo : "https://aartirathi17.herokuapp.com/",
@@ -43,7 +43,7 @@ export const webProject = [
       id: 5,
       title: "Notes App",
       img:
-        "../assets/note.jpg",
+        "assets/note.jpg",
       desc1: "A web-based notes app made by using javaScript",
       desc2: "A web-based notes app for developers having functionalities like Drag and drop, Search notes etc.",
       demo : "https://shinchancode.github.io/Notes-App/",
@@ -55,7 +55,7 @@ export const webProject = [
     {
       id: 1,
       title: "Trie Data Structure Project",
-      img: "../assets/trie.jpg",
+      img: "assets/trie.jpg",
       desc1: "Created a project using trie data structure, where customer details are searched, inserted and removed using this.",
       demo : "https://github.com/shinchancode/Trie-Data-structure/blob/main/Output",
       git: "https://github.com/shinchancode/Trie-Data-structure",
@@ -63,7 +63,7 @@ export const webProject = [
     {
       id: 2,
       title: "Data Structures",
-      img: "../assets/ds.jpg",
+      img: "assets/ds.jpg",
       desc1: "Semester 5 : Data Structure Lab",
       desc2: "Added practical assignment during lab session",
       demo : "https://github.com/shinchancode/Data-Structure-Algorithms",
@@ -72,7 +72,7 @@ export const webProject = [
     {
       id: 3,
       title: "OOP Lab",
-      img: "../assets/oop.jpg",
+      img: "assets/oop.jpg",
       desc1: "Semester 6 : Object Oriented Programming Lab",
       desc2: "Added practical assignment during lab session",
       demo : "https://github.com/shinchancode/Object-Oriented-Programming-Lab",
@@ -86,7 +86,7 @@ export const webProject = [
       id: 1,
       title: "Library Management System",
       img:
-        "../assets/library.jpg",
+        "assets/library.jpg",
       desc1: "Semester 6 : DBMS Mini Project",
       desc2: "Created a library management system using SQL and different functionalities",
       demo : "https://github.com/shinchancode/Mini-Project-SQL-LibraryManagement",
@@ -96,7 +96,7 @@ export const webProject = [
       id: 2,
       title: "DBMS Lab",
       img:
-        "../assets/sql.jpg",
+        "assets/sql.jpg",
       desc1: "Semester 6 : DBMS Lab",
       desc2: "Added practical assignment during lab session",
       demo : "https://github.com/shinchancode/DBMS-SQL-Lab",
@@ -109,7 +109,7 @@ export const webProject = [
       id: 1,
       title: "Computer Graphics",
       img:
-        "../assets/cg.png",
+        "assets/cg.png",
       desc1: "Semester 5 : Computer Graphics Lab",
       desc2: "Added practical assignment during lab session",
       demo : "https://github.com/shinchancode/Computer-Graphics",
@@ -119,7 +119,7 @@ export const webProject = [
       id: 2,
       title: "Snake and Ladder",
       img:
-        "../assets/snl.jpeg",
+        "assets/snl.jpeg",
       desc1: "Snake and Ladder game using python language.",
       desc2: "A simple command line interface snake and ladder game",
       demo : "https://github.com/shinchancode/MINI_PROJECT-Snake-and-Ladder",
