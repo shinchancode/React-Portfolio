@@ -1,6 +1,17 @@
+# [My React Website](https://shinchancode.github.io/React-Portfolio/)
+<b>Created a responsive react website using amazing features of CSS, HTML and Javascript framework React.
+Implemented my own Portfolio as Website, Where I have added all my projects and experiences. I have hosted it with the help of github gh-pages. I keep on making changes accordingly.</b>
+
+## View Live Demo
+<pre><center><a href="https://shinchancode.github.io/React-Portfolio/"><b>https://shinchancode.github.io/React-Portfolio/</b></a></center></pre>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### `npx create-react-app`
+
+To start with react app
 
 ## Available Scripts
 
@@ -14,30 +25,32 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### `npm i node-sass`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Node-sass is a library that provides binding for Node.js to LibSass, the C version of the popular stylesheet preprocessor, Sass.\
+See the section about [running tests](https://github.com/sass/node-sass) for more information.
+
+### `npm i ityped`
+
+Enter in any string, and watch it type at the speed you've set, backspace what it's typed,\
+and begin a new sentence for however many strings you've set.
+
+See the section about [deployment](https://unpkg.com/ityped@1.0.3) for more information.
+
+### `npm i @material-ui/core`
+### `npm i @material-ui/core`
+
+React components for faster and easier web development. Build your own design system, or start with Material Design.
+
+See the section about [MUI Documentation](https://mui.com/) for more information.
+
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
@@ -45,26 +58,58 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<hr>
 
-### `npm run build` fails to minify
+## [SnapShots in Laptop View](https://shinchancode.github.io/React-Portfolio/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p float="left">
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l1.png" width="500" height="300" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l2.png" width="500" height="300" />
+</p>
+<p float="left">
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l3.png" width="500" height="300" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l4.png" width="500" height="300" />
+</p>
+<p float="left">
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l5.png" width="500" height="300" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l6.png" width="500" height="300" />
+</p>
+<p float="left">
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l7.png" width="500" height="300" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l8.png" width="500" height="300" />
+</p>
+
+<hr>
+
+## [SnapShots in Mobile View](https://shinchancode.github.io/React-Portfolio/)
+<p float="left">
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m1.jpeg" width="250" height="570" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m2.jpeg" width="250" height="570" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m3.jpeg" width="250" height="570" />
+</p>
+<p float="left">
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m4.jpeg" width="250" height="570" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m5.jpeg" width="250" height="570" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m6.jpeg" width="250" height="570" />
+</p>
+<p float="left">
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m7.jpeg" width="250" height="570" />
+</p>
+  
+
+### Connect with me:
+
+[<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+[<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+
+<br />
+
+[website]: https://shinchancode.github.io/React-Portfolio/
+[twitter]: https://twitter.com/CodeShinchan
+[instagram]: https://www.instagram.com/shinchann_code/
+[linkedin]: https://www.linkedin.com/in/aarti-rathi-a6031814b/
