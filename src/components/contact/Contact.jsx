@@ -51,7 +51,7 @@ export default function Contact() {
       <div className="content">
         <p>
           &#x3c;&#47;&#x3e; with ❤️ by
-          <a href="https://shinchancode.github.io/React-Portfolio/" target="_blank">
+          <a href="https://shinchancode.github.io/3d-react-portfolio/" target="_blank">
             {" "}
             Aarti Rathi
           </a>
