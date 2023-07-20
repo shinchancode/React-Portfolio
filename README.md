@@ -65,40 +65,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ## [SnapShots in Laptop View](https://shinchancode.github.io/React-Portfolio/)
 
-<p float="left">
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l1.png" width="500" height="300" />
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l2.png" width="500" height="300" />
-</p>
-<p float="left">
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l3.png" width="500" height="300" />
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l4.png" width="500" height="300" />
-</p>
-<p float="left">
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l5.png" width="500" height="300" />
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l6.png" width="500" height="300" />
-</p>
-<p float="left">
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l7.png" width="500" height="300" />
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l8.png" width="500" height="300" />
-</p>
+![Portfolio Laptop](https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l1.png)
+
+![Portfolio Laptop](https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l2.png)
+
+![Portfolio Laptop](https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l3.png)
+
+![Portfolio Laptop](https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l4.png)
+
+![Portfolio Laptop](https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l5.png)
+
+![Portfolio Laptop](https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l6.png)
+
+![Portfolio Laptop](https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l7.png)
+
+![Portfolio Laptop](https://github.com/shinchancode/React-Portfolio/blob/main/Sample/l8.png)
 
 <hr>
 
 ## [SnapShots in Mobile View](https://shinchancode.github.io/React-Portfolio/)
-<p float="left">
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m1.jpeg" width="250" height="570" />
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m2.jpeg" width="250" height="570" />
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m3.jpeg" width="250" height="570" />
-</p>
-<p float="left">
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m4.jpeg" width="250" height="570" />
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m5.jpeg" width="250" height="570" />
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m6.jpeg" width="250" height="570" />
-</p>
-<p float="left">
-  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m7.jpeg" width="250" height="570" />
-</p>
-  
+
+<div align="center">
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m1.jpeg" width="250" height="400" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m2.jpeg" width="250" height="400" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m3.jpeg" width="250" height="400" />
+</div>
+
+<div align="center">
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m4.jpeg" width="250" height="400" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m5.jpeg" width="250" height="400" />
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m6.jpeg" width="250" height="400" />
+</div>
+
+<div align="center">
+  <img src="https://github.com/shinchancode/React-Portfolio/blob/main/Sample/m7.jpeg" width="250" height="400" />
+</div>
 
 ### Connect with me:
 
