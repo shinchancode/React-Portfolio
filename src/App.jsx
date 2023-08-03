@@ -1,3 +1,9 @@
+/*  
+	Name : Aarti Rathi
+ 	Wesbite : https://shinchancode.github.io/3d-react-portfolio/
+*/
+
+
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
